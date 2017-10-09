@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Condensed');
+
+/* -----------------------
+	Bootstrap Overrides
+--------------------------------------------------------------------------------------------------- */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-color: #f8f8f8;
+  padding-top: 62px;
+}
+* {
+  border-radius: 0px !important;
+}
+a {
+  cursor: pointer;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-default {
+  border: none;
+  background-color: #79AFB9;
+}
+.navbar-default .glyphicon {
+  color: #79AFB9;
+}
+.navbar-default * {
+  transition: all 0.2s linear 0.2s;
+}
+.navbar-brand {
+  height: auto;
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+.navbar-toggle {
+  margin-top: 12px;
+}
+
+@media (max-width: 1024px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+}
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 98% !important;
+  }
+}
+
+/* -----------------------
+	Forms, Input, Buttons
+--------------------------------------------------------------------------------------------------- */
+.btn {
+  padding: 16px;
+  font-size: 18px;
+  min-width: 160px;
+  transition: all 0.2s linear 0s;
+  border: none;
+  border-bottom: 3px solid;
+  outline: none;
+}
+.btn:active {
+  transform: translateY(4px);
+  outline: none;
+  border-bottom: 3px solid #349cb2;
+}
+.btn.btn-primary {
+  background-color: #349cb2;
+}
+.btn.btn-warning {
+  background-color: #f0ad4e;
+}
+
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #349cb2;
+  -webkit-box-shadow: none;
+}
+
+
